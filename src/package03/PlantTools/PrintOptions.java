@@ -13,4 +13,6 @@ public class PrintOptions {
     public static void prbln(String s, boolean b) {
         System.out.println( s + " = " + b );
     }
+    public static void prlng(String s, long l) { System.out.println( s + " = " + l );}
+    public static void prchr(String s, char c) { System.out.println( s + " = " + c );}
 }
