@@ -6,7 +6,7 @@ public class LabeledFor {
     public static void main(String[] args){
         int i = 0;
         outer:
-        for ( ; i < 20 ; ){
+        for ( ; true ; ){
             inner:
             for ( ; i < 10; i++ ){
                 PrintOptions.print( "i", i );
@@ -14,15 +14,17 @@ public class LabeledFor {
                     PrintOptions.prstg("Continue", "Executed");
                     continue;
                 }
-                else if ( i == 3 ) {
+                if ( i == 3 ) {
                     PrintOptions.prstg("Break", "Executed");
+                    i++;
                     break;
                 }
-                else if ( i == 7 ){
+                if ( i == 7 ){
                     PrintOptions.prstg( "Continue", "outer");
+                    i++;
                     continue outer;
                 }
-                else if ( i == 8 ){
+                if ( i == 8 ){
                     PrintOptions.prstg( "Break", "outer" );
                     break outer;
                 }
