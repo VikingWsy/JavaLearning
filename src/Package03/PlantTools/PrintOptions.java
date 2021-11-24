@@ -15,4 +15,7 @@ public class PrintOptions {
     }
     public static void prlng(String s, long l) { System.out.println( s + " = " + l );}
     public static void prchr(String s, char c) { System.out.println( s + " = " + c );}
+    public static void prstring(String s){
+        System.out.println(s);
+    }
 }
