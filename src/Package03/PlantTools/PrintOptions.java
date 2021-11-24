@@ -1,4 +1,4 @@
-package package03.PlantTools;
+package Package03.PlantTools;
 
 public class PrintOptions {
     public static void print(String s, int i) {

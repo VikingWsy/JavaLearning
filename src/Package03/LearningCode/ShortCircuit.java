@@ -1,6 +1,6 @@
-package package03.LearningCode;
+package Package03.LearningCode;
 
-import package03.PlantTools.PrintOptions;
+import Package03.PlantTools.PrintOptions;
 
 public class ShortCircuit {
     static boolean test1(int val){
