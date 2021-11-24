@@ -14,11 +14,13 @@ class Tree{
         height = i;
     }
 
+    Tree(String i){};
+
     void info(){
         PrintOptions.prstring("Tree is " + height + " feet tall");
     }
 
-    void infos(String s) {
+    void info(String s) {
         PrintOptions.prstring(s + ": Tree is " + height + " feet tall");
     }
 }
@@ -27,6 +29,7 @@ public class OverLoading {
         for (int i = 0; i < 5; i++){
             Tree t = new Tree(i);
             t.info();
+            t.info("Overloading");
         }
     }
 }
