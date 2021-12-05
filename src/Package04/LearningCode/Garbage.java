@@ -46,7 +46,7 @@ public class Garbage {
                 System.runFinalization();
             }
             if (args[0].equals("after")){
-//                System.run
+//                System.runFinalizersOnExi
             }
         }
     }
