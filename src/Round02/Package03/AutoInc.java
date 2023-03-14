@@ -1,4 +1,4 @@
-package Round02Package03;
+package Round02.Package03;
 
 public class AutoInc {
     static void prt(String s){
