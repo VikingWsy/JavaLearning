@@ -9,6 +9,6 @@ public class Bool {
         PrintOptions.prstring("i = " + i);
         PrintOptions.prstring(("j = " + j));
 
-
+        PrintOptions.prstring("i > j is " + (i > j));
     }
 }
