@@ -17,5 +17,7 @@ public class Bool {
 
         PrintOptions.prstring("i == j is " + (i == j));
         PrintOptions.prstring("i != j is " + (i != j));
+
+
     }
 }
